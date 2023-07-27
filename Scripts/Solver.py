@@ -1,5 +1,5 @@
 
 
 
-def solve(tasksData, edgesData):
+def solve(tasksData, edgesData, metaData):
     pass
