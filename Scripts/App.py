@@ -86,7 +86,6 @@ def prepareTheDataForTheSolver():
         'taktTime': taktTime,
     }
     
-        
             
 if __name__ == "__main__":
     main()
