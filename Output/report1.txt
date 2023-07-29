@@ -1,0 +1,37 @@
+The annual demand                             :      1600.00 units
+Total available time for processing           :      2400.00 Minutes (m)
+The takt time for this process                :         1.50 Minutes (m)
+The total task time for this line             :         3.40 Minutes (m)
+Number of nodes                               :            9 
+Number of edges                               :            9 
+
+
+ ----------------------------------------- Unbalanced Line --------------------------------------
+       task name                                                          task time   idle time 
+ ------------------------------------------------------------------------------------------------
+[  1] Mount electronic control panel                                          0.35        1.15
+[  2] Install safety sensors                                                  0.35        1.15
+[  3] Attach support brackets                                                 0.70        0.80
+[  4] Assemble main drive shaft                                               0.50        1.00
+[  5] Install hydraulic pump                                                  0.50        1.00
+[  6] Mount conveyor belt                                                     0.20        1.30
+[  7] Attach cutting blades                                                   0.20        1.30
+[  8] Install gear synchronization unit                                       0.50        1.00
+[  9] Assemble drive chain mechanism                                          0.10        1.40
+
+Total idle time                                 :        10.10 Minutes (m)
+Smoothness index                                :         3.41 
+Line efficiency                                 :        25.19 %
+
+
+----------------------------------------------- Balanced Line -----------------------------------------------
+       task groupings                                                     task time               idle time
+-------------------------------------------------------------------------------------------------------------
+[  1] ['1', '2', '3']                                                         1.40                    0.10
+[  2] ['4', '5', '6', '7']                                                    1.40                    0.10
+[  3] ['8', '9']                                                              0.60                    0.90
+
+Total idle time                                 :         1.10 Minutes (m)
+Smoothness index                                :         0.91 
+Maximum units with this setup (annual demand)   :      1714.29
+Line efficiency                                 :        75.56 %

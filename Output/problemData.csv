@@ -1,0 +1,7 @@
+Assembly line parameters,Value
+The annual demand,1600.0
+Total available time (Minutes (m)),2400.0
+The takt time (Minutes (m)),1.5
+The total task time (Minutes (m)),3.4000000000000004
+Number of nodes,9.0
+Number of edges,9.0
